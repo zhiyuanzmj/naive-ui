@@ -818,9 +818,9 @@ export default defineComponent({
       >
         {inputNode}
         {this.showTrigger && this.listType !== 'image-card' && (
-          <NUploadTrigger>{$slots}</NUploadTrigger>
+          <NUploadTrigger v-slots={$slots} />
         )}
-        {this.showFileList && <NUploadFileList>{$slots}</NUploadFileList>}
+        {this.showFileList && <NUploadFileList v-slots={$slots} />}
       </div>
     )
   }

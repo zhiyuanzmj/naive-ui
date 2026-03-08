@@ -91,9 +91,8 @@ export default defineComponent({
             class={themeClassHandle?.themeClass.value}
             {...keep(props, baseAnchorPropKeys)}
             mergedClsPrefix={mergedClsPrefixRef.value}
-          >
-            {slots}
-          </NBaseAnchor>
+            v-slots={slots}
+          />
         )
       }
     }

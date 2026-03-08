@@ -161,7 +161,7 @@ export function createLayoutComponent(isContent: boolean) {
               style={[this.contentStyle, hasSiderStyle] as any}
               onScroll={this.handleNativeElScroll}
             >
-              {this.$slots}
+              {this.$slots.default?.()}
             </div>
           ) : (
             <NScrollbar
@@ -172,9 +172,8 @@ export function createLayoutComponent(isContent: boolean) {
               themeOverrides={this.mergedTheme.peerOverrides.Scrollbar}
               contentClass={this.contentClass}
               contentStyle={[this.contentStyle, hasSiderStyle] as any}
-            >
-              {this.$slots}
-            </NScrollbar>
+              v-slots={this.$slots}
+            />
           )}
         </div>
       )

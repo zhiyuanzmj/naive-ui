@@ -117,9 +117,8 @@ export const NModalEnvironment = defineComponent({
         onAfterLeave={handleAfterLeave}
         internalAppear
         internalModal
-      >
-        {this.$slots}
-      </NModal>
+        v-slots={this.$slots}
+      />
     )
   }
 })

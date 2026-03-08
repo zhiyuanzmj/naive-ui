@@ -51,11 +51,10 @@ export const NotificationContainer = defineComponent({
             theme={mergedTheme.peers.Scrollbar}
             themeOverrides={mergedTheme.peerOverrides.Scrollbar}
             contentStyle={{ overflow: 'hidden' }}
-          >
-            {$slots}
-          </NScrollbar>
+            v-slots={$slots}
+          />
         ) : (
-          $slots
+          $slots.default?.()
         )}
       </div>
     )

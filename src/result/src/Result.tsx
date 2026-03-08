@@ -149,7 +149,9 @@ export default defineComponent({
           ) : null}
         </div>
         {$slots.default && (
-          <div class={`${mergedClsPrefix}-result-content`}>{$slots}</div>
+          <div class={`${mergedClsPrefix}-result-content`}>
+            {$slots.default()}
+          </div>
         )}
         {$slots.footer && (
           <div class={`${mergedClsPrefix}-result-footer`}>

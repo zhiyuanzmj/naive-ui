@@ -313,7 +313,7 @@ export default defineComponent({
                                   style={this.contentStyle}
                                   role="none"
                                 >
-                                  {$slots}
+                                  {$slots.default?.()}
                                 </div>
                               ) : (
                                 <NScrollbar
@@ -327,9 +327,8 @@ export default defineComponent({
                                   themeOverrides={
                                     this.mergedTheme.peerOverrides.Scrollbar
                                   }
-                                >
-                                  {$slots}
-                                </NScrollbar>
+                                  v-slots={$slots}
+                                />
                               )
                             ]
                           ),

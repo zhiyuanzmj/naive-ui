@@ -378,9 +378,8 @@ export default defineComponent({
                         )
                       : undefined
                   }
-                >
-                  {this.$slots}
-                </NModalBodyWrapper>
+                  v-slots={this.$slots}
+                />
               </div>,
               [
                 [

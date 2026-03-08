@@ -5,13 +5,13 @@ import { NMessageProvider, useMessage } from '../index'
 
 const Provider = defineComponent({
   render() {
-    return <NMessageProvider max={1}>{this.$slots}</NMessageProvider>
+    return <NMessageProvider max={1} v-slots={this.$slots} />
   }
 })
 
 const NoMaxProvider = defineComponent({
   render() {
-    return <NMessageProvider>{this.$slots}</NMessageProvider>
+    return <NMessageProvider v-slots={this.$slots} />
   }
 })
 

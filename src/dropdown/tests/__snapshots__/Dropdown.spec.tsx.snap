@@ -7,6 +7,7 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
 >
   
   
+  
   <div
     class="n-dropdown-option"
   >
@@ -15,24 +16,28 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
     >
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         主角和吃的
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       />
     </div>
   </div>
   
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -40,18 +45,24 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         杰·盖茨比
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -60,7 +71,7 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body n-dropdown-option-body--disabled"
@@ -68,6 +79,7 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -151,17 +163,22 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         黛西·布坎南
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -172,7 +189,7 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -180,17 +197,21 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         其他角色
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
         <i
           class="n-icon"
@@ -218,6 +239,7 @@ exports[`n-dropdown > dropdown clickoutside 1`] = `
     </div>
     
   </div>
+  
   
   <!---->
 </div>
@@ -230,6 +252,7 @@ exports[`n-dropdown > inverted style 1`] = `
 >
   
   
+  
   <div
     class="n-dropdown-option"
   >
@@ -238,24 +261,28 @@ exports[`n-dropdown > inverted style 1`] = `
     >
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         主角和吃的
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       />
     </div>
   </div>
   
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -263,18 +290,24 @@ exports[`n-dropdown > inverted style 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         杰·盖茨比
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -283,7 +316,7 @@ exports[`n-dropdown > inverted style 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body n-dropdown-option-body--disabled"
@@ -291,6 +324,7 @@ exports[`n-dropdown > inverted style 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -374,17 +408,22 @@ exports[`n-dropdown > inverted style 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         黛西·布坎南
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -395,7 +434,7 @@ exports[`n-dropdown > inverted style 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -403,17 +442,21 @@ exports[`n-dropdown > inverted style 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         其他角色
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
         <i
           class="n-icon"
@@ -441,6 +484,7 @@ exports[`n-dropdown > inverted style 1`] = `
     </div>
     
   </div>
+  
   
   <!---->
 </div>
@@ -453,6 +497,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
 >
   
   
+  
   <div
     class="n-dropdown-option"
   >
@@ -461,24 +506,28 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
     >
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         主角和吃的
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       />
     </div>
   </div>
   
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -486,6 +535,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -569,17 +619,22 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         杰·盖茨比
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -588,7 +643,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body n-dropdown-option-body--disabled"
@@ -596,6 +651,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -679,17 +735,22 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         黛西·布坎南
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -700,7 +761,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -708,6 +769,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -791,16 +853,19 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         其他角色
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
         <i
           class="n-icon"
@@ -828,6 +893,7 @@ exports[`n-dropdown > should work with \`render-icon\` props 1`] = `
     </div>
     
   </div>
+  
   
   <!---->
 </div>
@@ -840,6 +906,7 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
 >
   
   
+  
   <div
     class="n-dropdown-option"
   >
@@ -848,28 +915,32 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
     >
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         <a
           href="renderLabel"
         >
           主角和吃的
         </a>
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       />
     </div>
   </div>
   
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -877,22 +948,28 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         <a
           href="renderLabel"
         >
           杰·盖茨比
         </a>
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -901,7 +978,7 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body n-dropdown-option-body--disabled"
@@ -909,6 +986,7 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -992,21 +1070,26 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         <a
           href="renderLabel"
         >
           黛西·布坎南
         </a>
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -1017,7 +1100,7 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -1025,21 +1108,25 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         <a
           href="renderLabel"
         >
           其他角色
         </a>
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
         <i
           class="n-icon"
@@ -1067,6 +1154,7 @@ exports[`n-dropdown > should work with \`render-label\` props 1`] = `
     </div>
     
   </div>
+  
   
   <!---->
 </div>
@@ -1081,6 +1169,7 @@ exports[`n-dropdown > shows menu after click 1`] = `
 >
   
   
+  
   <div
     class="n-dropdown-option"
   >
@@ -1089,24 +1178,28 @@ exports[`n-dropdown > shows menu after click 1`] = `
     >
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         主角和吃的
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       />
     </div>
   </div>
   
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -1114,18 +1207,24 @@ exports[`n-dropdown > shows menu after click 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         杰·盖茨比
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -1134,7 +1233,7 @@ exports[`n-dropdown > shows menu after click 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body n-dropdown-option-body--disabled"
@@ -1142,6 +1241,7 @@ exports[`n-dropdown > shows menu after click 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <i
           class="n-icon"
           role="img"
@@ -1225,17 +1325,22 @@ exports[`n-dropdown > shows menu after click 1`] = `
             />
           </svg>
         </i>
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         黛西·布坎南
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
-      />
+        data-dropdown-option=""
+      >
+        <!---->
+      </div>
     </div>
     <!---->
   </div>
@@ -1246,7 +1351,7 @@ exports[`n-dropdown > shows menu after click 1`] = `
   />
   <div
     class="n-dropdown-option"
-    data-dropdown-option="true"
+    data-dropdown-option=""
   >
     <div
       class="n-dropdown-option-body"
@@ -1254,17 +1359,21 @@ exports[`n-dropdown > shows menu after click 1`] = `
       <div
         class="n-dropdown-option-body__prefix n-dropdown-option-body__prefix--show-icon"
       >
+        
         <!---->
+        
       </div>
       <div
         class="n-dropdown-option-body__label"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
+        
         其他角色
+        
       </div>
       <div
         class="n-dropdown-option-body__suffix n-dropdown-option-body__suffix--has-submenu"
-        data-dropdown-option="true"
+        data-dropdown-option=""
       >
         <i
           class="n-icon"
@@ -1292,6 +1401,7 @@ exports[`n-dropdown > shows menu after click 1`] = `
     </div>
     
   </div>
+  
   
   <!---->
 </div>

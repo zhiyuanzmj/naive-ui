@@ -396,9 +396,8 @@ export default defineComponent({
                   showMask={this.showMask}
                   onEsc={this.handleEsc}
                   onClickoutside={this.handleOutsideClick}
-                >
-                  {this.$slots}
-                </NDrawerBodyWrapper>
+                  v-slots={this.$slots}
+                />
               </div>,
               [[zindexable, { zIndex: this.zIndex, enabled: this.show }]]
             )

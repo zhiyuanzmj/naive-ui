@@ -233,9 +233,8 @@ export default defineComponent({
         showToolbarTooltip={this.showToolbarTooltip}
         renderToolbar={this.renderToolbar}
         onClose={this.onClose}
-      >
-        {this.$slots}
-      </NImagePreview>
+        v-slots={this.$slots}
+      />
     )
   }
 })

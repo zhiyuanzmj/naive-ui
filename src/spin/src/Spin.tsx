@@ -191,7 +191,7 @@ export default defineComponent({
           ]}
           style={this.contentStyle}
         >
-          {$slots}
+          {$slots.default?.()}
         </div>
         <Transition name="fade-in-transition">
           {{

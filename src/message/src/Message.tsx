@@ -1,5 +1,5 @@
 import type { CSSProperties, PropType, VNodeChild } from 'vue'
-/* eslint-disable no-cond-assign */
+
 import type { MessageRenderMessage, MessageType } from './types'
 import { computed, defineComponent, h, inject } from 'vue'
 import {
@@ -148,7 +148,8 @@ export default defineComponent({
       showIcon
     } = this
     onRender?.()
-    let iconNode: VNodeChild
+    const iconNode
+      = renderMessage || createIconVNode(icon, type, mergedClsPrefix)
     return (
       <div
         class={[`${mergedClsPrefix}-message-wrapper`, themeClass]}
@@ -172,18 +173,17 @@ export default defineComponent({
               this.rtlEnabled && `${mergedClsPrefix}-message--rtl`
             ]}
           >
-            {(iconNode = createIconVNode(icon, type, mergedClsPrefix))
-              && showIcon ? (
-                  <div
-                    class={`${mergedClsPrefix}-message__icon ${mergedClsPrefix}-message__icon--${type}-type`}
-                  >
-                    <NIconSwitchTransition>
-                      {{
-                        default: () => iconNode
-                      }}
-                    </NIconSwitchTransition>
-                  </div>
-                ) : null}
+            {iconNode && showIcon ? (
+              <div
+                class={`${mergedClsPrefix}-message__icon ${mergedClsPrefix}-message__icon--${type}-type`}
+              >
+                <NIconSwitchTransition>
+                  {{
+                    default: () => iconNode
+                  }}
+                </NIconSwitchTransition>
+              </div>
+            ) : null}
             <div class={`${mergedClsPrefix}-message__content`}>
               {render(content)}
             </div>

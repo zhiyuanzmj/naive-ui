@@ -520,9 +520,8 @@ export default defineComponent({
                               onToggle={this.handleSelect}
                               renderLabel={this.renderLabel}
                               scrollbarProps={this.scrollbarProps}
-                            >
-                              {$slots}
-                            </NInternalSelectMenu>
+                              v-slots={$slots}
+                            />
                           ) : null
                         }
                       }}

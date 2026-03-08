@@ -6,9 +6,11 @@ export default defineComponent({
   setup(_, { slots }) {
     const isMountedRef = useIsMounted()
     return () => (
-      <Transition name="icon-switch-transition" appear={isMountedRef.value}>
-        {slots}
-      </Transition>
+      <Transition
+        name="icon-switch-transition"
+        appear={isMountedRef.value}
+        v-slots={slots}
+      />
     )
   }
 })
