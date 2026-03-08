@@ -98,7 +98,7 @@ describe('n-flex', () => {
     })
     expect(wrapper.html()).toMatchSnapshot()
     const childNodes = getChildrenNode(wrapper)
-    expect(childNodes.length).toEqual(3) // Comment node
+    expect(childNodes.length).toEqual(3) // includes whitespace text nodes introduced by the compiler plus a comment node
   })
 
   it('should work with `wrap` prop', async () => {
