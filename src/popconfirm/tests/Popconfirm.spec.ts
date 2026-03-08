@@ -74,7 +74,7 @@ describe('n-popconfirm', () => {
     wrapper.unmount()
   })
 
-  it('should work with on-negative-click prop', async () => {
+  it('should work with `on-negative-click` prop', async () => {
     const onClick = vi.fn()
     const wrapper = mount(NPopconfirm, {
       attachTo: document.body,
