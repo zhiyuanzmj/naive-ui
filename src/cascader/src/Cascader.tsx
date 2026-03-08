@@ -28,6 +28,7 @@ import type {
   SelectMenuInstance,
   Value
 } from './interface'
+import type { CascaderSpinProps } from './public-types'
 import { changeColor, depx, getPreciseEventTarget, happensIn } from 'seemly'
 import { createTreeMate, SubtreeNotLoadedError } from 'treemate'
 import { useIsMounted, useMergedState } from 'vooks'
@@ -168,6 +169,7 @@ export const cascaderProps = {
   getColumnStyle: Function as PropType<
     (detail: { level: number }) => string | CSSProperties
   >,
+  spinProps: Object as PropType<CascaderSpinProps>,
   renderPrefix: Function as PropType<
     (props: {
       option: CascaderOption
@@ -943,6 +945,7 @@ export default defineComponent({
       getColumnStyleRef: toRef(props, 'getColumnStyle'),
       renderPrefixRef: toRef(props, 'renderPrefix'),
       renderSuffixRef: toRef(props, 'renderSuffix'),
+      spinPropsRef: toRef(props, 'spinProps'),
       syncCascaderMenuPosition,
       syncSelectMenuPosition,
       updateKeyboardKey,

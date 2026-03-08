@@ -1,19 +1,35 @@
 # CHANGELOG
 
-## NEXT_VERSION
+## 2.44.0
 
-`NEXT_VERSION`
+`2026-03-08`
 
 ### Breaking Changes
 
 - `n-color-picker` 重构 DOM 结构和 trigger 相关的类名
+- `n-card` 中 `n-card__content` 类名改为 `n-card-content`
+- `n-select` 点击清空按钮时默认会删除通过 `tag` 属性创建的选项
 
 ### Feats
 
 - `n-color-picker` 新增 `trigger` slot，关闭 [#7192](https://github.com/tusen-ai/naive-ui/issues/7192)
+- `n-select` 新增 `clear-created-options-on-clear` 属性，用于在开启 `tag` 且可清空时控制点击清空是否同时清空通过 tag 创建的选项
 - `n-select` `n-auto-complete` `n-mention` `n-popselect` `n-cascader` `n-pagination` 新增 `scrollbar-props` 属性
+- `n-config-provider` 新增组件级 `renderEmpty` 配置（`Cascader`、`DataTable`、`Select`、`Transfer`、`Tree`、`TreeSelect`）
+- `n-config-provider` 在 `component-options` 中新增按组件配置 `size`（`Button`、`Card`、`Checkbox`、`DataTable`、`Descriptions`、`Dropdown`、`DynamicTags`、`Form`、`Input`、`Pagination`、`Popselect`、`Radio`、`Rate`、`Result`、`Skeleton`、`Space`、`Switch`、`Table`、`Tabs`、`Tag`），关闭 [#356](https://github.com/tusen-ai/naive-ui/issues/356)
 - `n-upload` 的 `submit` 方法新增 `retry` 属性。
 - `n-breadcrumb-item` 新增 `show-separator` 属性，用于配合 `transition-group` 使用时手动控制分隔符显隐，关闭 [#3614](https://github.com/tusen-ai/naive-ui/issues/3614)
+- `n-card` 新增 `content-scrollable` 属性，关闭 [#4848](https://github.com/tusen-ai/naive-ui/issues/4848)、[#6759](https://github.com/tusen-ai/naive-ui/pull/6759)
+- `n-date-picker` 新增 `fast-year-select` 参数
+- `n-date-picker` 新增 `fast-month-select` 参数
+- `n-button` 增加 `spin-props` 属性
+- `n-cascader` 增加 `spin-props` 属性
+- `n-log` 增加 `spin-props` 属性
+- `n-message` 增加 `spin-props` 属性
+- `n-switch` 增加 `spin-props` 属性
+- `n-tree` 增加 `spin-props` 属性
+- `n-spin` 增加 `radius` 和 `scale` 属性
+- `n-tree-select` 增加 `show-line` 属性
 
 ### Fixes
 
@@ -21,6 +37,8 @@
 - 修复 `n-select` 清除动态创建的选项时，同时启用 `tag` 和 `clearable` 属性时清除不生效的问题，关闭 [#7405](https://github.com/tusen-ai/naive-ui/issues/7405)
 - 修复 `n-modal` 监听事件未移除，关闭 [#7341](https://github.com/tusen-ai/naive-ui/issues/7341)
 - 修复 `n-marquee` 组件 Non-function value encountered for default slot 警告
+- 修复 `n-data-table` 的 empty 状态在 `display: flex` 的容器中不展示
+- 修复 `n-data-table` 的在 empty 状态下，配合 `max-height` 或者 `flex-height`，header 部分没有滚动条，关闭 [#7479](https://github.com/tusen-ai/naive-ui/pull/7479)
 
 ## 2.43.2
 

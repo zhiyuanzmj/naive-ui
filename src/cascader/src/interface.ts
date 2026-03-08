@@ -4,6 +4,7 @@ import type { ScrollbarProps } from '../../_internal'
 import type { MergedTheme } from '../../_mixins'
 import type { NLocale } from '../../locales'
 import type { CascaderTheme } from '../styles'
+import type { CascaderSpinProps } from './public-types'
 import { createInjectionKey } from '../../_utils'
 
 export type ValueAtom = string | number
@@ -113,6 +114,7 @@ export interface CascaderInjection {
   renderLabelRef: Ref<
     ((option: CascaderOption, checked: boolean) => VNodeChild) | undefined
   >
+  spinPropsRef: Ref<CascaderSpinProps | undefined>
   scrollbarPropsRef: Ref<ScrollbarProps | undefined>
   clearPattern: () => void
 }
