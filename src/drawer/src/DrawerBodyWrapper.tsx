@@ -327,8 +327,9 @@ export default defineComponent({
                                   themeOverrides={
                                     this.mergedTheme.peerOverrides.Scrollbar
                                   }
-                                  v-slots={$slots}
-                                />
+                                >
+                                  {{ ...$slots }}
+                                </NScrollbar>
                               )
                             ]
                           ),

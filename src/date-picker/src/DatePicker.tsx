@@ -999,24 +999,27 @@ export default defineComponent({
         <DatetimePanel
           {...commonPanelProps}
           defaultCalendarStartTime={this.defaultCalendarStartTime}
-          v-slots={$slots}
-        />
+        >
+          {{ ...$slots }}
+        </DatetimePanel>
       ) : type === 'daterange' ? (
         <DaterangePanel
           {...commonPanelProps}
           defaultCalendarStartTime={this.defaultCalendarStartTime}
           defaultCalendarEndTime={this.defaultCalendarEndTime}
           bindCalendarMonths={this.bindCalendarMonths}
-          v-slots={$slots}
-        />
+        >
+          {{ ...$slots }}
+        </DaterangePanel>
       ) : type === 'datetimerange' ? (
         <DatetimerangePanel
           {...commonPanelProps}
           defaultCalendarStartTime={this.defaultCalendarStartTime}
           defaultCalendarEndTime={this.defaultCalendarEndTime}
           bindCalendarMonths={this.bindCalendarMonths}
-          v-slots={$slots}
-        />
+        >
+          {{ ...$slots }}
+        </DatetimerangePanel>
       ) : type === 'month' || type === 'year' || type === 'quarter' ? (
         <MonthPanel {...commonPanelProps} type={type} key={type} />
       ) : type === 'monthrange'
@@ -1028,8 +1031,9 @@ export default defineComponent({
               {...commonPanelProps}
               type={type}
               defaultCalendarStartTime={this.defaultCalendarStartTime}
-              v-slots={$slots}
-            />
+            >
+              {{ ...$slots }}
+            </DatePanel>
           )
     }
     if (this.panel) {

@@ -1,5 +1,4 @@
 import type { CSSProperties, PropType, VNodeChild } from 'vue'
-
 import type { MessageSpinProps } from './public-types'
 import type { MessageRenderMessage, MessageType } from './types'
 import { computed, defineComponent, h, inject } from 'vue'

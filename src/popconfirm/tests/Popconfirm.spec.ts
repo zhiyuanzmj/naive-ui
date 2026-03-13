@@ -35,7 +35,7 @@ describe('n-popconfirm', () => {
     wrapper.unmount()
   })
 
-  it('should work with show-icon prop', async () => {
+  it('should work with `show-icon` prop', async () => {
     const wrapper = mount(NPopconfirm, {
       attachTo: document.body,
       props: {

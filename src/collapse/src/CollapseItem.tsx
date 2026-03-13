@@ -187,8 +187,9 @@ export default defineComponent({
           clsPrefix={mergedClsPrefix}
           displayDirective={mergedDisplayDirective}
           show={!collapsed}
-          v-slots={$slots}
-        />
+        >
+          {{ ...$slots }}
+        </NCollapseItemContent>
       </div>
     )
   }

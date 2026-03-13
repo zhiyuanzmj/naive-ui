@@ -103,8 +103,9 @@ export default defineComponent({
             : tusimpleComponentOptions
         }
         icons={icons ? merge({}, tusimpleIcons, icons) : tusimpleIcons}
-        v-slots={this.$slots}
-      />
+      >
+        {{ ...this.$slots }}
+      </NConfigProvider>
     )
   }
 })

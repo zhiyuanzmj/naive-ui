@@ -216,8 +216,9 @@ export default defineComponent({
             }
             gapOffsetDegree={gapOffsetDegree}
             unit={unit}
-            v-slots={$slots}
-          />
+          >
+            {{ ...$slots }}
+          </Circle>
         ) : type === 'line' ? (
           <Line
             clsPrefix={mergedClsPrefix}
@@ -234,8 +235,9 @@ export default defineComponent({
             fillBorderRadius={fillBorderRadius}
             railBorderRadius={borderRadius}
             height={height}
-            v-slots={$slots}
-          />
+          >
+            {{ ...$slots }}
+          </Line>
         ) : type === 'multiple-circle' ? (
           <MultipleCircle
             clsPrefix={mergedClsPrefix}
@@ -247,8 +249,9 @@ export default defineComponent({
             percentage={percentage as number[]}
             showIndicator={showIndicator}
             circleGap={circleGap}
-            v-slots={$slots}
-          />
+          >
+            {{ ...$slots }}
+          </MultipleCircle>
         ) : null}
       </div>
     )

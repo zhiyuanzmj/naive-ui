@@ -131,8 +131,9 @@ export default defineComponent({
               bodyContentClass
             ]}
             contentStyle={bodyContentStyle}
-            v-slots={$slots}
-          />
+          >
+            {{ ...$slots }}
+          </NScrollbar>
         )}
         {$slots.footer ? (
           <div

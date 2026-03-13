@@ -172,8 +172,9 @@ export function createLayoutComponent(isContent: boolean) {
               themeOverrides={this.mergedTheme.peerOverrides.Scrollbar}
               contentClass={this.contentClass}
               contentStyle={[this.contentStyle, hasSiderStyle] as any}
-              v-slots={this.$slots}
-            />
+            >
+              {{ ...this.$slots }}
+            </NScrollbar>
           )}
         </div>
       )

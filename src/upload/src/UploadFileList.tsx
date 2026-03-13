@@ -80,7 +80,9 @@ export default defineComponent({
           {renderUploadFileList()}
           {showTriggerRef.value
             && !maxReachedRef.value
-            && isImageCardTypeRef.value && <NUploadTrigger v-slots={slots} />}
+            && isImageCardTypeRef.value && (
+            <NUploadTrigger>{{ ...slots }}</NUploadTrigger>
+          )}
         </div>
       )
     }

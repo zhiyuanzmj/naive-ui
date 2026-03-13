@@ -134,8 +134,9 @@ export default defineComponent({
                   onPositiveClick: this.handlePositiveClick,
                   onNegativeClick: this.handleNegativeClick
                 }}
-                v-slots={slots}
-              />
+              >
+                {{ ...slots }}
+              </PopconfirmPanel>
             )
           }
         }}

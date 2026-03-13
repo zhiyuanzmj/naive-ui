@@ -320,8 +320,9 @@ export default defineComponent({
                   }
                 : undefined
             }
-            v-slots={this.$slots}
-          />
+          >
+            {{ ...this.$slots }}
+          </NScrollbar>
         ) : (
           <div
             class={[
